@@ -1,0 +1,337 @@
+/* $Id$ */
+/** Reset *********************************************************************/
+html,body,div,span,a,img,h1,h2,h3,h4,h5,h6,hgroup,p,dl,dialog,dt,dd,ol,ul,li,abbr,acronym,address,b,big,blockquote,cite,code,del,dfn,em,i,ins,kbd,pre,q,samp,tt,var,small,strong,sub,sup,object,iframe,form,fieldset,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,footer,header,nav,section,figure,menu,time,mark,audio,video{background:transparent;border:0;font-size:100%;margin:0;outline:0;padding:0;text-align:left;vertical-align:baseline;white-space:normal}
+article,aside,dialog,figure,footer,header,hgroup,menu,nav,section{display:block}
+abbr,acronym{border:0}
+blockquote,q{quotes:'' ''}
+blockquote:before,blockquote:after,q:before,q:after{content:''}
+ins{text-decoration:none}
+del{text-decoration:line-through}
+table{background:transparent;border-collapse:collapse;border-spacing:0;height:auto;width:auto}
+caption,th,td{font-weight:normal;text-align:left}
+textarea{font-family:inherit;font-size:100%;font-style:normal;font-weight:normal;margin:0;padding:0;text-align:left;white-space:normal}
+strong,strong a{font-weight:bold}
+em,em a{font-style:italic}
+fieldset,img,hr{border:0}
+a:hover span{cursor:pointer}
+
+
+/** CSS Tools *****************************************************************/
+.invisible,
+#edit-search-theme-form-1-wrapper label { /* Still read by screen readers */
+  height: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.clearfix:after,
+.ui-helper-clearfix:after,
+.section:after,
+.main-menu:after,
+.menu:after,
+.links:after {
+  clear: both;
+  content: " ";
+  display: block;
+  font-size: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+.ie .clearfix,
+.ie .ui-helper-clearfix,
+.ie .section,
+.ie .main-menu,
+.ie .menu,
+.ie .links {
+  _height: 0; /* triggers hasLayout in IE6 */
+  min-height: 0; /* triggers hasLayout in IE7 */
+}
+
+
+/** Lists *********************************************************************/
+ul.links,
+ul.menu {
+  margin: 0;
+}
+
+ul.links li,
+ul.menu li {
+  list-style: none;
+}
+
+.menu-list {
+  padding-left: 0;
+}
+
+.menu-list a {
+  display: block;
+  text-decoration: none;
+}
+
+.pipeline-list {
+  padding-left: 0;
+}
+
+.pipeline-list li,
+.pipeline-list a {
+  display: block;
+  float: left;
+}
+
+.pipeline-list li {
+  border-left: 1px solid #666;
+  margin-left: 1em;
+  padding-left: 1em;
+}
+
+.pipeline-list li.first {
+  border: 0;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.primary-tabs,
+.secondary-tabs {
+  display: inline-block;
+  padding: 0;
+}
+
+.primary-tabs li,
+.primary-tabs a,
+.secondary-tabs li,
+.secondary-tabs a {
+  display: block;
+  float: left;
+}
+
+
+/** Tables ********************************************************************/
+table {
+  margin: 0 0 1.5em;
+  width: 100%;
+}
+
+table th,
+table td {
+  vertical-align: middle;
+}
+
+tr.even {
+  background: #f8f8f8;
+  border-bottom: 1px solid #ccc;
+}
+
+tr.odd {
+  background: #f0f0f0;
+  border-bottom: 1px solid #ccc;
+}
+
+tr.drag {
+  background: #ffe;
+}
+
+tr.drag-previous {
+  background: #ffd;
+}
+
+td {
+  padding: .5em 1em;
+}
+
+td.active {
+  background: #ddd;
+}
+
+td.checkbox,
+th.checkbox {
+  text-align: center;
+}
+
+tbody {
+  border-top: 1px solid #ccc;
+}
+
+tbody th {
+  border-bottom: 1px solid #ccc;
+}
+
+thead th {
+  color: #333;
+  border-bottom: 2px solid #ccc;
+  padding: .6em 1.5em .4em;
+  text-align: left; /* LTR */
+}
+
+th.active img {
+  display: inline;
+}
+
+tr.odd .form-item,
+tr.even .form-item {
+  margin-bottom: 0;
+  margin-top: 0;
+  white-space: nowrap;
+}
+
+tr.merge-down,
+tr.merge-down td,
+tr.merge-down th {
+  border-bottom-width: 0 !important;
+}
+
+tr.merge-up,
+tr.merge-up td,
+tr.merge-up th {
+  border-top-width: 0 !important;
+}
+
+tr.region-populated {
+  display: none;
+}
+
+tr.region-empty td {
+  padding-left: 2em;
+}
+
+tr.region td {
+  color: #333;
+  font-weight: bold;
+  padding-top: 1.5em;
+}
+
+table.sticky-header {
+  background: #fff;
+}
+
+html.js fieldset.collapsed {
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+  margin-bottom: 0;
+  height: 1em;
+}
+
+html.js fieldset.collapsed * {
+  display: none;
+}
+
+html.js fieldset.collapsed legend {
+  display: block;
+}
+
+.ie html.js fieldset.collapsed legend,
+.ie html.js fieldset.collapsed legend *,
+.ie html.js fieldset.collapsed table * {
+  display: inline;
+}
+
+/* For Safari 2 to prevent collapsible fieldsets containing tables from dissapearing due to tableheader.js. */
+html.js fieldset.collapsible {
+  position: relative;
+}
+
+html.js fieldset.collapsible legend a {
+  display: block;
+}
+
+/* Avoid jumping around due to margins collapsing into collapsible fieldset border */
+html.js fieldset.collapsible .fieldset-wrapper {
+  overflow: auto;
+}
+
+.handle {
+  background: url(../Images/draggable.png) no-repeat 4px 2px;
+  float: left;
+  height: 13px;
+  padding: 3px 5px 0 4px;
+  width: 13px;
+}
+
+
+/** Forms *********************************************************************/
+input.form-submit,
+label { font-weight:bold; }
+
+label {
+  padding-right: .5em;
+}
+
+.webform-component {
+	display: block;
+	width: 600px;
+}
+
+#webform-client-form-18 label,
+#webform-client-form-19 label,
+#webform-client-form-20 label  {
+	display: block;
+	padding: 5px 5px 5px 0px;
+	width: 600px;	
+}
+
+#webform-client-form-18 .form-actions,
+#webform-client-form-19 .form-actions,
+#webform-client-form-20 .form-actions {
+	margin: 5px;
+	text-align: center;
+}
+
+input.form-submit { cursor:pointer; }
+
+input.form-radio,
+input.form-checkbox { vertical-align:middle; }
+
+div.form-item div.description,
+div.description {
+  font-size:11px;
+  }
+
+div.collapsible h2.fieldset-title { cursor:pointer; }
+div.collapsed div.fieldset-content { display:none; }
+
+.form-submit {
+  font-size: 100%;
+  font-weight: normal !important;
+  line-height: 1;
+  padding: 0 .5em .2em;
+}
+
+
+/** Modules *******************************************************************/
+span.ext {
+  background: url(../Images/extlink.png) right center no-repeat;
+  padding-right: 1em;
+}
+
+span.mailto {
+  background: url(../Images/mailto.png) right center no-repeat;
+  padding-right: 1em;
+}
+
+
+/** jQuery ********************************************************************/
+.ui-accordion .ui-accordion-content {overflow:hidden !important;} /* Prevent scrollbars in jQuery UI Accordions */
+
+
+/** Drupal Admin **************************************************************/
+div.messages, div.warning {
+  max-width: 40em;
+}
+
+div.warning {
+  background:#ffa;
+  border: 1px dashed #630;
+  color:#420;
+}
+
+div.status {
+  background:#def;
+  border: 1px dashed #036;
+  color:#024;
+}

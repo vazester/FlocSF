@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/App_Data/Sitefinity/WebsiteTemplates/Default/App_Master/Site.Master" AutoEventWireup="true" CodeBehind="Home.master.cs" Inherits="WebApp.App_Master.Home" %>
+
+<asp:Content ID="cntHeaderInfo" ContentPlaceHolderID="cphHeaderInfo" runat="server">
+    <asp:ContentPlaceHolder ID="cphHeaderInfo" runat="server"/>
+</asp:Content>
+
+<asp:Content ID="cntHeaderNav" ContentPlaceHolderID="cphHeaderNav" runat="server">
+    <asp:ContentPlaceHolder ID="cphHeaderNav" runat="server"/>
+</asp:Content>
+
+<asp:Content ID="cntMainNav" ContentPlaceHolderID="cphMainNav" runat="server">
+    <asp:ContentPlaceHolder ID="cphMainNav" runat="server"/>
+</asp:Content>
+
+<asp:Content ID="cntMain" ContentPlaceHolderID="cphMain" runat="server">
+    <div id="content">
+        <div class="view view-marketing-box view-id-marketing_box view-display-id-page_1 view-dom-id-1" style="position: relative;">
+            <asp:ContentPlaceHolder ID="cphFeature" runat="server"/>
+        </div>
+        <div class="block clearfix" id="block-block-2">
+            <asp:ContentPlaceHolder ID="cphDonateVolunteerEnroll" runat="server"/>
+        </div>
+    </div>
+
+    <div class="columns">
+        <div id="column1">
+            <asp:ContentPlaceHolder ID="cphColumn1" runat="server"/>
+        </div>
+
+        <div id="column2">
+            <asp:ContentPlaceHolder ID="cphColumn2" runat="server"/>
+        </div>
+
+        <div id="column3">
+            <asp:ContentPlaceHolder ID="cphColumn3" runat="server"/>
+        </div>
+    </div>
+</asp:Content>
+
+<asp:Content ID="cntFooterNav" ContentPlaceHolderID="cphFooterNav" runat="server">
+    <asp:ContentPlaceHolder ID="cphFooterNav" runat="server"/>
+</asp:Content>
+
+<asp:Content ID="cntFooterContact" ContentPlaceHolderID="cphFooterContact" runat="server">
+    <asp:ContentPlaceHolder ID="cphFooterContact" runat="server"/>
+</asp:Content>

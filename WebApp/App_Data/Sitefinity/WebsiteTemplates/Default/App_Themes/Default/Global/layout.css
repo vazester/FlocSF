@@ -1,0 +1,284 @@
+/* $Id$ */
+body.theme {
+  text-align: center;
+}
+
+#page, #page-top #page-bottom {
+  margin: 0 auto;
+  padding: 0 39px;
+  text-align: left;
+  max-width: 900px;
+}
+
+#page-bottom {
+  margin: 0 auto;
+  padding: 0 24px;
+  text-align: left;
+  max-width: 930px;
+}
+
+#sidebar-first {
+  float: left;
+  width: 200px;
+}
+
+#sidebar-second {
+  float: right;
+  text-align: left;
+  width: 214px;
+}
+
+#main {
+	padding-right: 28px;
+	position: relative;
+}
+
+.is-front #main {
+	padding-right: 0px;
+  position: relative;
+}
+
+body.region-left #main {
+  margin-left: 214px;
+}
+
+body.is-front #main {
+	margin-left: 0px;	
+}
+
+body.region-right #main {
+  margin-right: 214px;
+}
+
+body.both-sidebars #main {
+  margin-left: 185px;
+  margin-right: -100%;
+  padding: 0 34px;
+  width: 434px;
+}
+
+.callout {
+	background-color: #eaf1f7;
+	border: 1px solid #000;
+	display: block;
+	float: right;
+	margin: 0px 0px 10px 10px;
+	padding: 5px;
+	width: 160px;	
+}
+
+p.callout span.callout-quote {
+	font-style: italic;	
+}
+
+p.callout span.callout-quote-name {
+	float: right;
+	font-weight: bold;
+}
+
+/** Columns *******************************************************************/
+.col-1-2 {
+  clear: left;
+  float: left;
+  width: 49%;
+}
+
+.col-2-2 {
+  clear:right;
+  float: right;
+  width: 49%
+}
+
+
+/** Header ********************************************************************/
+#header {
+  position: relative;
+}
+
+#site-name {
+  float: left;
+}
+
+.join-mailing-list {
+  float: right;
+}
+
+.header-links {
+  clear: right;
+  float: right;
+}
+
+#ie7 .header-links {
+	padding: 0px;
+	width: 385px;
+}
+
+.header-links li,
+.header-links a {
+  display: block;
+  float: left;
+}
+
+
+/** Navigation ****************************************************************/
+#nav {
+  display: table;
+  position: relative;
+  width: 100%;
+}
+
+#nav .menu {
+  display: table-row;
+  padding: 0;
+}
+
+.ie #nav .menu { /* Make IE6/7 display it as an inline-block */
+  display: inline;
+  _height: 0; /* triggers hasLayout in IE6 */
+  min-height: 0; /* triggers hasLayout in IE7 */
+}
+
+#nav .menu li {
+  display: table-cell;
+  width: auto;
+}
+
+#nav a {
+  display: block;
+  text-align: center;
+}
+
+.ie #nav li,
+.ie #nav a {
+  float: left;
+}
+
+#nav .menu .menu {
+  display: none;
+}
+
+/****** FORUM ********************************************/
+
+#forum,
+.forum-post,
+.forum-topic-header {
+	margin-left: -200px;
+	margin-top: 0px;	
+}
+
+.forum-post {
+	clear: left;
+	float: left;	
+}
+
+#forum li.markasread  {
+	display: none;	
+}
+
+#forum table {
+	clear: left;
+	width: 625px;	
+}
+
+.forum-top-links {
+	display: block;
+    float: left;
+    margin: 0;
+}
+
+.forum-post .post-info,
+.forum-post .forum-post-wrapper,
+.forum-post .forum-post-footer {
+	float: left;
+}
+
+#forum-comments {
+	border-top: 1px dashed #ccc;
+	float: left;
+	margin: 15px 0px 0px -200px;
+	padding: 15px 0px 0px 0px;
+	width: 600px;
+}
+
+#forum-comments .forum-post {
+	margin-left: 25px;	
+}
+
+#forum-comments .forum-post {
+	line-height: 20px;	
+}
+
+#forum-comments .forum-post span.post-num a,
+#forum-comments .forum-post span.post-num a:active,
+#forum-comments .forum-post span.post-num a:link,
+#forum-comments .forum-post span.post-num a:visited,
+#forum-comments .forum-post span.post-num a:hover {
+	display: none;
+}
+
+#forum-comments .indented {
+	margin-left: 50px;	
+}
+
+#forum-comments ul.forum-links li.topic_reply {
+	display: none;	
+}
+
+#cke_contents_edit-comment body .cke_show_borders {
+	background-color: #fff;	
+}
+
+/* ***** Document Content Type **********************************/
+
+.field-field-document-type,
+.field-field-document-file .field-label {
+	display: none;	
+}
+
+/* ***** Jobs Content Type **********************************/
+
+.view-jobs .views-admin-links {
+	display: none;	
+}
+
+.view-jobs .views-row {
+	border-bottom: 1px dashed #000;
+	margin-bottom: 10px;
+	padding-bottom: 15px;
+}
+
+.view-jobs .views-row-last {
+	border-bottom-style: none;
+}
+
+p.job-disclaimer {
+	font-size: 10px;	
+}
+
+/** Footer ********************************************************************/
+#footer {
+  padding-top: 30px;
+}
+
+.footer-links {
+  float: left;
+  width: 260px;
+}
+
+.footer-links li {
+  width: 115px;
+}
+
+.footer-links li,
+.footer-links a {
+  display: block;
+  float: left;
+  margin-bottom: 2px;
+}
+
+/* ********* Special Styles **************************/
+
+.node-submitted,
+.textarea-identifier {
+	display: none;	
+}

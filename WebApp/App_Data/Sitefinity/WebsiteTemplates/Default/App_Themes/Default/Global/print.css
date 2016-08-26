@@ -1,0 +1,53 @@
+@media print 
+{
+    
+.invisible,
+#page-links,
+.header-links,
+#login,
+#cart-link,
+#language-bar,
+#search-theme-form,
+#nav,
+#page-actions,
+#sidebar-first,
+#sidebar-second,
+#social-networks,
+.footer-links,
+#views-product_promos-block,
+.mission-panel-2,
+.ui-tabs-nav {
+  display: none;
+}
+
+#page {
+  margin: 1em 4em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  padding-bottom: 1em;
+}
+
+#site-name {
+  color: #333;
+  font-size: 26px;
+  font-weight: normal;
+  line-height: 32px;
+  padding: 0;
+}
+
+.page-title {
+  font-weight: normal;
+}
+
+.article-image {
+  float: left;
+  margin: 0 16px 16px 0;
+}
+
+.article, .press-releases {
+  clear: both;
+}
+
+}

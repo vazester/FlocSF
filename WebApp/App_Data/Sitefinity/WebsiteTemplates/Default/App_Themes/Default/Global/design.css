@@ -1,0 +1,878 @@
+body {
+  background: #fff url(../Images/bgBody.png) bottom left repeat-x;
+  color: #5f6a72;
+}
+
+a {
+  color: #26b;
+}
+
+hr {
+  border-color: #333;
+}
+
+#page {
+  background: url(../Images/bgPage.png) repeat-y;
+}
+
+#page-top {
+  background: url(../Images/bgPageExtra.png) repeat-x;
+  height: 9px;
+  margin-top: 10px;
+}
+
+#page-bottom {
+  background: url(../Images/bgPageExtra.png) 0 -9px repeat-x;
+  color: #fff;
+}
+
+/** Header ********************************************************************/
+#header {
+  background: url(../Images/bgHeader.jpg) repeat-x;
+  margin: 0 -30px;
+  padding: 8px 30px 0;
+}
+
+#site-name span {
+  background: url(../Images/lgFLOC.png) no-repeat;
+  display: block;
+  height: 97px;
+  text-indent: -9999em;
+  width: 369px;
+}
+
+#site-name small {
+  height: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+}
+
+.join-mailing-list {
+  background: url(../Images/icJoin.png) no-repeat;
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 0px;
+  padding-left: 37px;
+}
+
+.spanish-information {
+	clear: right;
+	float: right;
+	font-weight: bold;
+	height: 35px;
+	line-height: 15px;
+	margin-bottom: 5px;
+	padding-left: 37px;
+	text-align: right;
+}
+
+
+/** Navigation ****************************************************************/
+
+#nav ul {
+	height: 46px;	
+}
+
+#nav ul li {
+	padding: 0;	
+}
+
+#nav a {
+	color: #36424a;
+	display: block;
+	font: bold 15px arial, sans-serif;
+	height: 46px;
+	line-height: 3;
+}
+
+#nav ul.menu li#Home a {
+	display: block;
+	font: bold 15px arial, sans-serif;
+	line-height: 3;
+	width: 104px;
+}
+
+#nav ul.menu li#AboutUs a {
+	display: block;
+	font: bold 15px arial, sans-serif;
+	line-height: 3;
+	width: 123px;
+}
+
+#nav ul.menu li#OurPrograms a {
+	display: block;
+	font: bold 15px arial, sans-serif;
+	line-height: 3;
+	width: 160px;
+}
+
+#nav ul.menu li#GetInvolved a {
+	display: block;
+	font: bold 15px arial, sans-serif;
+	line-height: 3;
+	width: 150px;
+}
+
+#nav ul.menu li#EnrollAChild a {
+	display: block;
+	font: bold 15px arial, sans-serif;
+	line-height: 3;
+	width: 158px;
+}
+
+#nav ul.menu li#News a {
+	display: block;
+	font: bold 15px arial, sans-serif;
+	line-height: 3;
+	width: 101px;
+}
+
+#nav ul.menu li#Events a {
+	display: block;
+	font: bold 15px arial, sans-serif;
+	line-height: 3;
+	width: 105px;
+}
+
+.ie #nav a {
+  padding: 0 2.9em;
+}
+
+#nav a:hover,
+#nav a:focus,
+#nav a:active {
+  text-decoration: none;
+}
+
+#nav ul.menu li#Home a:hover {
+	background: #fff url(../Images/home_rollover.jpg) no-repeat 0px 3px;
+	color: #fff;
+	display: block;	
+}
+
+#nav ul.menu li#AboutUs a:hover {
+	background: #fff url(../Images/about_rollover.jpg) no-repeat 0px 3px;
+	color: #fff;
+	display: block;	
+}
+
+#nav ul.menu li#AboutUs a.active,
+#nav ul.menu li.active-trail-AboutUs a {
+	background: #fff url(../Images/about_rollover.jpg) no-repeat 0px 3px;
+	color: #fff;
+	display: block;	
+}
+
+#nav ul.menu li#OurPrograms a:hover {
+	background: #fff url(../Images/programs_rollover.jpg) no-repeat 0px 3px;
+	color: #fff;
+	display: block;	
+}
+
+#nav ul.menu li#OurPrograms a.active,
+#nav ul.menu li.active-trail-OurPrograms a {
+	background: #fff url(../Images/programs_rollover.jpg) no-repeat 0px 3px;
+	color: #fff;
+	display: block;	
+}
+
+#nav ul.menu li#GetInvolved a:hover {
+	background: #fff url(../Images/involved_rollover.jpg) no-repeat 0px 3px;
+	color: #fff;
+	display: block;	
+}
+
+#nav ul.menu li#GetInvolved a.active,
+#nav ul.menu li.active-trail-GetInvolved a {
+	background: #fff url(../Images/involved_rollover.jpg) no-repeat 0px 3px;
+	color: #fff;
+	display: block;	
+}
+
+#nav ul.menu li#EnrollAChild a:hover {
+	background: #fff url(../Images/enroll_rollover.jpg) no-repeat 0px 3px;
+	color: #fff;
+	display: block;	
+}
+
+#nav ul.menu li#EnrollAChild a.active,
+#nav ul.menu li.active-trail-EnrollAChild a {
+	background: #fff url(../Images/enroll_rollover.jpg) no-repeat 0px 3px;
+	color: #fff;
+	display: block;	
+}
+
+#nav ul.menu li#News a:hover {
+	background: #fff url(../Images/news_rollover.jpg) no-repeat 0px 3px;
+	color: #fff;
+	display: block;	
+}
+
+#nav ul.menu li#News a.active,
+#nav ul.menu li.active-trail-News a {
+	background: #fff url(../Images/news_rollover.jpg) no-repeat 0px 3px;
+	color: #fff;
+	display: block;	
+}
+
+#nav ul.menu li#Events a:hover {
+	background: #fff url(../Images/events_rollover.jpg) no-repeat 0px 3px;
+	color: #fff;
+	display: block;	
+}
+
+#nav ul.menu li#Events a.active,
+#nav ul.menu li.active-trail-Events a {
+	background: #fff url(../Images/events_rollover.jpg) no-repeat 0px 3px;
+	color: #fff;
+	display: block;	
+}
+
+/* IE7 Navigation *************************************************************/
+
+#ie7 #nav a {
+	padding: 0;
+}
+
+#ie7 #nav ul.menu li#Home a {
+	color: #36424a;
+	display: block;
+	font: bold 15px arial, sans-serif;
+	line-height: 3;
+	width: 100px;
+}
+
+#ie7 #nav ul.menu li#AboutUs a {
+	color: #36424a;
+	display: block;
+	font: bold 15px arial, sans-serif;
+	line-height: 3;
+	width: 123px;
+}
+
+#ie7 #nav ul.menu li#OurPrograms a {
+	color: #36424a;
+	display: block;
+	font: bold 15px arial, sans-serif;
+	line-height: 3;
+	width: 160px;
+}
+
+#ie7 #nav ul.menu li#GetInvolved a {
+	color: #36424a;
+	display: block;
+	font: bold 15px arial, sans-serif;
+	line-height: 3;
+	width: 150px;
+}
+
+#ie7 #nav ul.menu li#EnrollYourChild a {
+	color: #36424a;
+	display: block;
+	font: bold 15px arial, sans-serif;
+	line-height: 3;
+	width: 157px;
+}
+
+#ie7 #nav ul.menu li#News a {
+	color: #36424a;
+	display: block;
+	font: bold 15px arial, sans-serif;
+	line-height: 3;
+	width: 100px;
+}
+
+#ie7 #nav ul.menu li#Events a {
+	color: #36424a;
+	display: block;
+	font: bold 15px arial, sans-serif;
+	line-height: 3;
+	width: 105px;
+}
+
+#ie7 #nav ul.menu li#Home a:hover {
+	background: #fff url(../Images/home_rollover.jpg) no-repeat 0px 3px;
+	color: #fff;
+	display: block;	
+}
+
+#ie7 #nav ul.menu li#AboutUs a:hover {
+	background: #fff url(../Images/about_rollover.jpg) no-repeat 0px 3px;
+	color: #fff;
+	display: block;	
+}
+
+#ie7 #nav ul.menu li#OurPrograms a:hover {
+	background: #fff url(../Images/programs_rollover.jpg) no-repeat 0px 3px;
+	color: #fff;
+	display: block;	
+}
+
+#ie7 #nav ul.menu li#GetInvolved a:hover {
+	background: #fff url(../Images/involved_rollover.jpg) no-repeat 0px 3px;
+	color: #fff;
+	display: block;	
+}
+
+#ie7 #nav ul.menu li#EnrollYourChild a:hover {
+	background: #fff url(../Images/enroll_rollover.jpg) no-repeat 0px 3px;
+	color: #fff;
+	display: block;	
+}
+
+#ie7 #nav ul.menu li#News a:hover {
+	background: #fff url(../Images/news_rollover.jpg) no-repeat 0px 3px;
+	color: #fff;
+	display: block;	
+}
+
+#ie7 #nav ul.menu li#Events a:hover {
+	background: #fff url(../Images/events_rollover.jpg) no-repeat 0px 3px;
+	color: #fff;
+	display: block;	
+}
+
+/* Sidebar ********************************************************************/
+
+#sidebar-first ul.secondary-links {
+	padding: 0px;
+}
+
+#sidebar-first ul.secondary-links li {
+	border-top: 1px solid #ccc;
+	display: block;
+	margin-top: 3px;
+	width: 190px;
+}
+
+#sidebar-first ul.secondary-links li.first {
+	margin-top: 0px;
+}
+
+#sidebar-first ul.secondary-links li.active {
+	display: block;
+	width: 190px;
+}
+
+#sidebar-first ul.secondary-links li a {
+	color: #5f6a72;
+	display: block;
+	font: normal 13px arial, sans-serif;
+	padding: 10px 0px 10px 8px;
+	text-decoration: none;
+	width: 185px;	
+}
+
+#sidebar-first ul.secondary-links li.active a {
+	background: #fff url(../Images/left_nav_selected.png) no-repeat 3px 3px;
+	color: #fff;
+	margin-bottom: 2px;
+}
+
+#sidebar-first ul.secondary-links li.active a.active {
+	background: #fff url(../Images/left_nav_selected.png) no-repeat 3px 3px;
+	color: #fff;
+	font-weight: bold;
+	margin-bottom: 2px;
+}
+
+#sidebar-first ul.secondary-links li a:hover {
+	background: #fff url(../Images/left_nav_hover.png) no-repeat 3px 3px;
+	color: #2a6ebb;
+}
+
+#sidebar-first ul.secondary-links li.last {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 2px;
+}
+
+#sidebar-first ul.secondary-links li.last a:hover {
+	background: #fff url(../Images/left_nav_hover.png) no-repeat 3px 3px;
+	color: #2a6ebb;
+}
+
+/** Footer ********************************************************************/
+.footer-links a {
+  color: #fff;
+}
+
+.social-links {
+	background: url(../Images/partner-divider.gif) no-repeat right 10px;
+	float: left;
+	height: 112px;
+	width: 267px;	
+}
+
+.social-link {
+  background: url(../Images/icSocial1.png) no-repeat;
+  display: inline-block;
+  height: 34px;
+  margin: 10px 15px 0 0;
+  text-indent: -9999em;
+  width: 34px;
+}
+
+.social-facebook {
+  background-position: -34px 0;
+}
+
+.social-twitter {
+  background-position: -68px 0;
+}
+
+.social-youtube {
+  background-position: -102px 0;
+}
+
+.social-google {
+	background-position: -139px 0;	
+}
+
+#ie7 .social-link {
+	background: url(../Images/icSocial1.png) no-repeat;
+	display: block;
+	float: left;
+	height: 34px;
+	margin: 10px 17px 0 0;
+	text-indent: -9999em;
+	width: 34px;
+}
+
+#ie7 .social-facebook {
+	background-position: -34px 0;
+	display: block;
+	float: left;
+}
+
+#ie7 .social-twitter {
+	background-position: -68px 0;
+	display: block;
+	float: left;
+}
+
+#ie7 .social-youtube {
+	background-position: -102px 0;
+	display: block;
+	float: left;
+}
+
+#ie7 .social-google {
+	background-position: -139px 0;
+	display: block;
+	float: left;
+}
+
+.partner-links {
+	float: right;
+	height: 62px;	
+}
+
+.partner-link {
+  background: url(../Images/icPartner13.png) no-repeat;
+  display: inline-block;
+  height: 52px;
+  margin: 10px 17px 0 0;
+  text-indent: -9999em;
+  width: 62px;
+}
+
+.partner-cfc {
+  background-position: -61px 0;
+  width: 71px;
+}
+
+.partner-uw {
+  background-position: -132px 0;
+  width: 82px;
+}
+
+.partner-nfg {
+  background-position: right 0;
+  width: 95px;
+}
+
+#ie7 .partner-link {
+	background: url(../Images/icPartner.png) no-repeat;
+	display: block;
+	float: left;
+	height: 52px;
+	margin: 10px 17px 0 0;
+	text-indent: -9999em;
+	width: 62px;
+}
+
+#ie7 .partner-cfc {
+	background-position: -61px 0;
+	float: left;
+	width: 71px;
+}
+
+#ie7 .partner-uw {
+	background-position: -132px 0;
+	float: left;
+	width: 82px;
+}
+
+#ie7 .partner-nfg {
+	background-position: right 0;
+	float: left;
+	width: 95px;
+}
+
+#footer-message {
+	float: right;
+	margin-top: 15px;
+	width: 382px;
+}
+
+#footer-message p {
+	word-spacing: .15em
+}
+
+
+/** Lists *********************************************************************/
+.pipeline-list li,
+.header-links li {
+  border-left: 1px solid #666;
+  line-height: 1;
+  margin-left: 1em;
+  padding-left: 1em;
+}
+
+.pipeline-list li.first,
+.header-links li.first {
+  border: 0;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+ul.primary-tabs,
+ul.secondary-tabs {
+  border: 1px solid #ccc;
+  margin: 0 0 .4286em;
+}
+
+ul.secondary-tabs {
+  margin-left: 2em;
+}
+
+.primary-tabs a,
+.secondary-tabs a {
+  background: #ddd;
+  background: -moz-linear-gradient(top, #fff, #ccc);
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ccc));
+  border: 1px solid;
+  border-bottom-color: #ccc;
+  border-left-color: #fff;
+  border-right-color: #ccc;
+  border-top-color: #fff;
+  color: #333;
+  line-height: 1.5;
+  padding: 0 1em;
+  text-decoration: none;
+}
+
+.primary-tabs a:hover,
+.primary-tabs a:active,
+.primary-tabs a:focus,
+.secondary-tabs a:hover,
+.secondary-tabs a:active,
+.secondary-tabs a:focus {
+  border-bottom-color: #888;
+  border-left-color: #bbb;
+  border-right-color: #888;
+  border-top-color: #fff;
+  color: #000;
+}
+
+.primary-tabs a.active,
+.secondary-tabs a.active {
+  background: #333;
+  background: -moz-linear-gradient(top, #666, #000);
+  background: -webkit-gradient(linear, left top, left bottom, from(#666), to(#333));
+  border-bottom-color: #000 !important;
+  border-left-color: #999 !important;
+  border-right-color: #ccc !important;
+  border-top-color: #666 !important;
+  color: #fff !important;
+}
+
+
+/** Buttons *******************************************************************/
+.button-large {
+  background: url(../Images/bgButton.png) no-repeat;
+  display: inline-block;
+  height: 40px;
+  padding-left: 5px;
+}
+
+.ie .button-large {
+  display: inline;
+}
+
+.button-large a {
+  background: url(../Images/bgButton.png) top right no-repeat;
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+  height: 40px;
+  line-height: 40px;
+  margin-right: -5px;
+  padding: 0 15px 0 10px;
+  text-decoration: none !important;
+}
+
+
+/** Blocks ********************************************************************/
+.promo-links {
+  padding: 0;
+}
+
+.is-front .promo-links a {
+  background: url(../Images/bgPromoLinks.jpg) no-repeat top right;
+  display: block;
+  text-indent: -9999em;
+  width: 230px;
+}
+
+.promo-links a {
+  background: url(../Images/bgPromoLinks.jpg) no-repeat top right;
+  display: block;
+  text-indent: -9999em;
+  width: 212px;
+}
+
+.is-front .promo-links .promo-donate {
+  height: 90px;
+}
+
+.is-front .promo-links .promo-volunteer {
+  background-position: right -90px;
+  height: 89px;
+}
+
+.is-front .promo-links .promo-enroll {
+  background-position: right -179px;
+  height: 92px;
+}
+
+.promo-links .promo-donate {
+  height: 90px;
+}
+
+.promo-links .promo-volunteer {
+  background-position: right -90px;
+  height: 89px;
+}
+
+.promo-links .promo-enroll {
+  background-position: right -179px;
+  height: 92px;
+}
+
+.latest-content-item img.imagecache,
+.event-item img.imagecache {
+  border: 1px solid #ddd;
+  float: left;
+  margin: 3px 15px 0px 0;
+  padding: 1px;
+}
+
+.event-item {
+  clear: left;
+}
+
+.event-item img.imagecache {
+  margin-bottom: 1em;
+}
+
+.news-item {
+  clear: left;
+}
+
+#block-views-latest_content-block_1 h2, #block-views-latest_content-block_2 h2 {
+	color: #003466;
+	font: bold 16px Arial, sans-serif;		
+}
+
+.latest-content-item h3 a {
+	color: #5f6a72;
+	font: bold 14px Arial, sans-serif;	
+}
+
+/** Nodes *********************************************************************/
+.node-success-story .imagefield,
+.node-volunteer-spotlight .imagefield,
+.node-event .imagefield {
+  border: 1px solid #ddd;
+  clear: left;
+  float: left;
+  margin: 0px 1.5em .5em 0;
+  padding: 6px;
+}
+
+.view-news {
+  position: relative;
+}
+
+.node-news .imagefield {
+  border: 1px solid #ddd;
+  float: right;
+  margin: 0 0 1.5em 1.5em;
+  padding: 6px;
+}
+
+.node-news .news-date {
+  font-style: italic;
+}
+
+.view-news img.imagecache {
+  border: 1px solid #ddd;
+  float: left;
+  margin: 0 1.5em 1.5em 0;
+  padding: 6px;
+}
+
+.news-item h2 {
+	color: #5f6a72;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.news-item h2 a {
+	color: #5f6a72;
+}
+
+.news-item p {
+  padding-bottom: 0;
+}
+
+.is-front .news-item a, .is-front .latest-content-item a, .is-front .event-item a, .latest-content-item a {
+	display: block;
+	margin-top: 5px;
+}
+
+.node-type-event .event-date,
+.node-type-event .event-location {
+	font-weight: bold;	
+}
+
+.Success .view-latest-content .clearfix:after {
+	clear: none;	
+}
+
+
+/** Calendar ******************************************************************/
+
+.view-event-calendar {
+	margin-left:-220px;	
+}
+
+.calendar-calendar div.date-nav a, .calendar-calendar div.date-nav h3 {
+    text-align: center;
+}
+
+.calendar-calendar div.date-nav {
+  background: transparent;
+  border: 0;
+  height: .5em;
+}
+
+.calendar-calendar tbody {
+  border-top: 0;
+}
+
+.calendar-calendar th.days {
+  background: #5f6a72;
+  border-color: #5f6a72;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.calendar-calendar td,
+.calendar-calendar td div.day,
+.calendar-calendar td.empty {
+  border-color: #5f6a72;
+}
+
+.calendar-calendar td.empty {
+  background: #ddd;
+}
+
+.calendar-calendar .inner {
+  min-height: 7.5em;
+}
+
+.calendar-calendar h4 a {
+  display: block;
+  text-decoration: none !important;
+}
+
+.calendar-calendar td .inner div.calendar div,
+.calendar-calendar td .inner div.calendar div a {
+  background: #bf6;
+  color: #000;
+}
+
+.calendar-calendar tr td.today,
+.calendar-calendar tr.odd td.today,
+.calendar-calendar tr.even td.today {
+  background: #;
+}
+
+/** NTP Table Styles ******************************************************************/
+
+table#ntp {
+	margin: 0;
+	width: 97%;	
+}
+
+table#ntp tbody {
+	border: 0;	
+}
+
+table#ntp td {
+	border: 1px solid #000;
+	vertical-align: top;	
+}
+
+table#ntp td.top-row {
+	background-color: #ccc;
+}
+
+/** Special Styles ******************************************************************/
+
+.text-box {
+	background-color: #eaf1f7;
+	border: 1px solid #000;
+	display: block;
+	float: right;
+	padding: 10px;
+	margin: 0 0 0 10px;
+	width: 200px;	
+}
+
+.text-box p {
+	padding-bottom: 0px;	
+}
+
+p.alert {
+	color: #ff0000;
+	display: block;
+	font-weight: bold;
+	width: 600px;	
+}
+
+#hidden {
+	display: none;	
+}
+
+.Videos #content .clearfix:after,
+.Videos #content .view-nodequeue-1 .views-admin-links .links:after {
+	clear: none;	
+}
+
+.Videos #content .view-nodequeue-1 .item-list ul {
+	padding-left: 0px;	
+}

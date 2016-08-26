@@ -1,0 +1,80 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="WebApp.Masterpages.Site" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title></title>
+</head>
+<body class="theme is-front">
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server" />
+        <!--[if lte IE 6]><div id="ie6" class="ie"><![endif]--><!--[if IE 7]><div id="ie7" class="ie"><![endif]-->
+        <div id="page-top"></div>
+        <div id="page">
+        
+            <div id="header" class="section" role="banner">
+                <h2 id="site-name">
+                    <a href="" rel="start" title="" tabindex="0"><span>Site name</span></a>
+                    <small id="site-slogan">Site slogan</small>
+                </h2>
+                <div class="join-mailing-list"><a href="">Join Our Mailing List</a></div>
+                <asp:ContentPlaceHolder ID="cphHeaderInfo" runat="server"/>
+                <ul id="page-links" class="links invisible">
+                    <li class="first"><a href="#content" title="Skip to main content" tabindex="1">Skip to main content</a></li>
+                    <li class="last"><a href="#nav" title="Skip to navigation" tabindex="2">Skip to navigation</a></li>
+                </ul>
+                <asp:ContentPlaceHolder ID="cphHeaderNav" runat="server"/>
+            </div>
+
+            <h2 class="invisible">Navigation</h2>
+            <asp:ContentPlaceHolder ID="cphMainNav" runat="server"/>
+
+            <div id="page-body" class="section">
+                <!--Breadcrumb
+                <div id="sidebar-second">
+                    Sidebar second
+                </div>-->
+    
+                <div id="main" class="section" role="main">
+                    <!--<div id="console">
+                        <span>messages</span>
+                        <span>help</span>
+                        <span>tabs</span>
+                        <span>tabs2</span>
+                    </div>-->
+                    <asp:ContentPlaceHolder ID="cphMain" runat="server"/>
+                </div>
+            </div>
+        
+        </div>
+        <div id="page-bottom">
+            <div id="footer" class="section">
+
+                <asp:ContentPlaceHolder ID="cphFooterNav" runat="server"/>
+
+                <div class="social-links">
+                    <div>Follow Us On:</div>
+                    <a class="social-link social-linkedin" href="http://www.linkedin.com/groups?about=&gid=50330&trk=anet_ug_grppro" target="_blank">LinkedIn</a>
+                    <a class="social-link social-facebook" href="http://www.facebook.com/home.php?ref=home#!/pages/For-Love-of-Children/53801561805" target="_blank">Facebook</a>
+                    <a class="social-link social-twitter" href="http://twitter.com/FLOC_DC" target="_blank">Twitter</a>
+                    <a class="social-link social-youtube" href="">YouTube</a>
+                    <a class="social-link social-google" href="https://plus.google.com/114983396504209715916" target="_blank">Google +</a>
+                </div>
+
+                <div class="partner-links">
+                    <a target="_blank" href="http://www.catalogueforphilanthropy-dc.org/cfpdc/index.php" class="partner-link partner-cpf">Catalogue for Philanthropy</a>
+                    <a target="_blank" href="http://www.opm.gov/cfc/" class="partner-link partner-cfc">Combined Federal Campaign</a>
+                    <a target="_blank" href="https://www.unitedwaynca.org/" class="partner-link partner-uw">United Way</a>
+                    <a href="https://www.networkforgood.org/donation/MakeDonation.aspx?ORGID2=526064548" class="partner-link partner-nfg">Network for Good</a>
+                </div>
+            
+                <div id="footer-message" role="contentinfo">
+                    <asp:ContentPlaceHolder ID="cphFooterContact" runat="server"/>
+                </div>
+
+            </div>
+        </div>
+        <!--[if lte IE 7]></div><![endif]-->
+    </form>
+</body>
+</html>
